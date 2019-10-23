@@ -1,2 +1,3 @@
 # CursoEmVideoJS
-projetos em Jaca Script Curso Em Video 
+projetos em Java Script Curso Em Video 
+Exercicios/Aulas do curso 
