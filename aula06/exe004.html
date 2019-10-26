@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ex004</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
 </head>
 <body>
     <script>
         var nome= window.prompt('Qual é seu nome ?')
-        document.write('Seu nome tem ${nome.length} letras')
+        document.writeln(` olá <strong> ${nome} </strong>, seu nome tem ${nome.length} letras <br/>` )//aceita takes html
+        // documente.write -> escreve na pagina, e writeln escreve e pula linha 
+        document.write(`O seu nome em é maiúcula ${nome.toUpperCase()} <br/>`)
+        document.write(`O seu nome em é  minúscula ${nome.toLowerCase()}`)
+
     </script>
-    
-</body>
+    </body>
 </html>
