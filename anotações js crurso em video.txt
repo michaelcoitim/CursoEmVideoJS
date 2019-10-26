@@ -1,0 +1,53 @@
+anotações js crurso em video
+
+mosilla criou o js 
+sem limitações 
+
+.exit
+<script>
+        window.alert('Acarda para vida') // sem a necessidade de um';'
+    </script>
+
+
+    data types 
+
+numer
+	infinity
+	NaN
+string (letras)
+boolean (v ou f)
+nuul
+undefined
+object
+	array
+
+
+aula 6
+
+	trasforamando String em numeros 
+
+	Number.parseInt(n) ou parceint(n)
+	Number.parseFloat(n)
+	--simblificando
+	Number(n)
+
+
+outro tipo de conveção 
+String(n)
+n.toString
+========================================
+formatando strings 
+var s='java script'
+'Eu estou aprendendo s' // não faz interpolação
+
+'eu estou aprendendo'+s // usa concatenação
+
+geito novo temple string (deve ser utiliado a grase para funcionar)
+
+`eu estou aprendendo ${s}` // exemplo de template string
+
+outras funções 
+
+s.length -> tamanho da string (qntas lentras tem)
+s.toUppperCase() -> tudo maisculo
+s.toLowerCase() -> tudo minusculas
