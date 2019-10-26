@@ -51,3 +51,13 @@ outras funções
 s.length -> tamanho da string (qntas lentras tem)
 s.toUppperCase() -> tudo maisculo
 s.toLowerCase() -> tudo minusculas
+==========================================
+formatação de numeros
+var n1 = 1545.5
+n1.toFixed(2) -> fica com 2 casas decimais
+n1.toFixed(2).replace('.',',')-> trocando '.'(ponto) por ','(virgula)
+n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'}) -> formata usando moeda Brasil
+
+currency:'BRL '-> moeda Brasil
+currency:'USD' -> moeda USA
+currency:'EUR' -> moeda europeia
