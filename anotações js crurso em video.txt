@@ -61,3 +61,27 @@ n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'}) -> formata usando m
 currency:'BRL '-> moeda Brasil
 currency:'USD' -> moeda USA
 currency:'EUR' -> moeda europeia
+=============================
+operadores 
+soma +
+subitração -
+multiplicação *
+divição /
+mod %
+potencia ** exe: 5 ** 2 =25
+============================
+repeitar a orddem de precedência 
+1 () parentes 
+2 ** potencia 
+3 *,/,% 
+4 + , _ 
+==================
+auto atribuição simplificada 
+var n = 3
+
+n = n + 4  -> n += 4
+n = n - 5  -> n -= 5
+n = n * 4  -> n *= 4
+n = n / 2  -> n /= 2
+n = n **2  -> n **= 2
+n = n % 5  -> n  %= 5
