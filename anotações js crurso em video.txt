@@ -85,3 +85,30 @@ n = n * 4  -> n *= 4
 n = n / 2  -> n /= 2
 n = n **2  -> n **= 2
 n = n % 5  -> n  %= 5
+====================================
+operadores relacionais 
+< menor
+> maior
+<= menor igual
+>= maior igual
+== igual 
+=== identico (alem de igual tem que ser do mesmo tipo) identidade
+==! diferente restristo 
+=! diferente
+====================================
+operadores logicos
+! negação
+&& conjunção (and, e)
+|| dijunção (or, ou )
+
+precedencia 
+1 não 
+2 e 
+3 ou 
+====================================
+operador ternario
+?:
+
+teste ? true : false 
+ex 
+média>=7.0 ? "aprovado : "reprovado"
