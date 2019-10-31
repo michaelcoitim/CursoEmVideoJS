@@ -20,7 +20,9 @@
     <p>Aprendendo a usar o <strong>DOM</strong> em JS</p>
     <div>clique em mim</div>
     <script>
-        window.document.writeln("olá, Mundo")
+        var p1 = document.getElementsByTagName('p')[1]
+        //window.document.writeln("olá, Mundo")
+        window.document.writeln('Está escrito assim: '+ p1.innerText)
     </script>
     
 </body>
