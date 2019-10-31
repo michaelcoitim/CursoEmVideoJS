@@ -112,3 +112,15 @@ operador ternario
 teste ? true : false 
 ex 
 média>=7.0 ? "aprovado : "reprovado"
+========================
+aula 09 DOM
+document object model 
+conjunto de objetos no navegador
+
+arvore dom 
+
+raiz = window (janela){
+	location, document, history;
+}
+window->document->html->head , body
+repreentação foto (Arevore DOM)
