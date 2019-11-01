@@ -5,8 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: normal 20pt Arial;
+            background:rgba(54, 187, 125, 0.952);
+            color: white; 
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    
+    </style>
 </head>
 <body>
-    
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        interaja...
+
+
+    </div>
+    <script>
+        var a = document.getElementById('area')
+        function clicar(){
+            
+            a.innerText = 'clicou!'
+        }
+        function entrar(){
+            a.innerText='Entrou!'
+        }
+
+        function sair(){
+            a.innerText='Saiu!'
+        }
+    </script>
 </body>
 </html>

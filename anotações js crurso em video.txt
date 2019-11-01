@@ -134,4 +134,9 @@ clase = .
 id = #
 =====================================
 aula 10 Eventos DOM
+ ver -> mdn Event reference https://developer.mozilla.org/pt-BR/docs/Web/Events
+ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+ funçoes -> conjunto de codigos que sera execultado somente quando o evento ocorrer
+ 
 
