@@ -124,3 +124,10 @@ raiz = window (janela){
 }
 window->document->html->head , body
 repreentação foto (Arevore DOM)
+
+window.alert(p1.innerText)// mosta um alerta sem as formatações
+window.alert(p1.innerHTML)// mosta uma alerta com as fomatações html
+
+seletor 
+clase = .
+id = #
