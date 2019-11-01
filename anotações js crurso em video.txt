@@ -116,6 +116,7 @@ média>=7.0 ? "aprovado : "reprovado"
 aula 09 DOM
 document object model 
 conjunto de objetos no navegador
+dom -> Facilita o acesso  aos objetos do nevegador para o js
 
 arvore dom 
 
@@ -131,3 +132,6 @@ window.alert(p1.innerHTML)// mosta uma alerta com as fomatações html
 seletor 
 clase = .
 id = #
+=====================================
+aula 10 Eventos DOM
+
