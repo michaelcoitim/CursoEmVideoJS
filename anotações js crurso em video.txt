@@ -138,5 +138,10 @@ aula 10 Eventos DOM
  https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
  funçoes -> conjunto de codigos que sera execultado somente quando o evento ocorrer
- 
+ =======================================
+ aula 11 condições 
+
+ condição simples -> só execulta o bloco de codigo se a condição for verdadeira.
+
+ condição-> execulta mais de um bloco de codigo,
 
