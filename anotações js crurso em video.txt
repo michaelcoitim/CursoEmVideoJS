@@ -143,5 +143,6 @@ aula 10 Eventos DOM
 
  condição simples -> só execulta o bloco de codigo se a condição for verdadeira.
 
- condição-> execulta mais de um bloco de codigo,
+ condição composta -> execulta mais de um bloco de codigo,
 
+indentação = recuo= organizar codigo codigo
