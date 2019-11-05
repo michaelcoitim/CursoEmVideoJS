@@ -148,3 +148,8 @@ aula 10 Eventos DOM
 indentação = recuo= organizar codigo codigo
 =============================================================
 aula 12 condições alinhadas 
+
+são condições compostas uma dentro da outra.
+
+condições multiplas-> onde pode ter algumas condições, e para cada condição existe uma valor fixo
+não esqueser o break  "sair" de cada bloco 
