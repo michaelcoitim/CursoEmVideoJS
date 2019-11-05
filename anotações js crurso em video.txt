@@ -146,3 +146,5 @@ aula 10 Eventos DOM
  condição composta -> execulta mais de um bloco de codigo,
 
 indentação = recuo= organizar codigo codigo
+=============================================================
+aula 12 condições alinhadas 
