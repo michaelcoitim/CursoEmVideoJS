@@ -2,6 +2,9 @@
 
 var agora = new Date()
 var diaSem= agora.getDay() 
+
+//diaSem=10 // teste dia 
+    
 /* dias da semana JS
     .getDay busca o dias da semana 
     0- Domingo
