@@ -13,6 +13,11 @@ section{
     padding: 20px;
     width: 500px;
     margin: auto;
+
+}
+div {
+    text-align: center;
+    padding: 8px;
 }
 footer{
     color: white;
