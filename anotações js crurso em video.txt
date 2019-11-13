@@ -155,3 +155,4 @@ condições multiplas-> onde pode ter algumas condições, e para cada condiçã
 não esqueser o break  "sair" de cada bloco 
 ===================================
 maior dificuldade nos exercicios-> tratamento das fotos , buscar os valores do radio no js
+passar imagem para o html 
