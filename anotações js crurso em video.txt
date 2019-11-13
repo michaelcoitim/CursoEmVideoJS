@@ -153,3 +153,5 @@ são condições compostas uma dentro da outra.
 
 condições multiplas-> onde pode ter algumas condições, e para cada condição existe uma valor fixo
 não esqueser o break  "sair" de cada bloco 
+===================================
+maior dificuldade nos exercicios-> tratamento das fotos , buscar os valores do radio no js
