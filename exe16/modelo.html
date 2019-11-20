@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Modelo Exercicos </title>
+    <title>Contador</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Contador</h1>
 
     </header>
     <section>
         <div>
-            Teste
+           Inicio:<input type="number" name="txtnum1" id="txtnum1"> <br/>
+           Fim: <input type="number" name="txtnun2" id="txtnun2"> <br/>
+           Passo: <input type='number' name='txtpasso' id='txtpasso'><br/>
+           
+            <input type="button" value="Contar" onclick="Contar()">
         </div>
-        <div>
-            Olá
+        <div id="res">
+            preparando a contagem...
         </div>
     </section>
     <footer> 
