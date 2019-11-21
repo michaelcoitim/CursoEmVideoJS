@@ -12,9 +12,15 @@ function Contar(){
         alert('O numero de passo tem que ser mair que zero! Foi considerado o valor 1')
         passo.value = 1
     }
+    if(Number(n1.value)> Number(n2.value)){
+        for( var c= Number(n1.value); c>= Number(n2.value); c-=Number(passo.value)){
+            res.innerHTML+=`${c},`
 
-    for(var c =Number(n1.value); c <= Number(n2.value) ; c+= Number(passo.value)){
-        res.innerHTML+=`${c},`
+        }
+    }else{
+        for(var c =Number(n1.value); c <= Number(n2.value) ; c+= Number(passo.value)){
+            res.innerHTML+=`${c},`
 
+        }
     }
 }
