@@ -12,16 +12,20 @@ function Contar(){
         alert('O numero de passo tem que ser mair que zero! Foi considerado o valor 1')
         passo.value = 1
     }
-    if(Number(n1.value)> Number(n2.value)){
-        for( var c= Number(n1.value); c>= Number(n2.value); c-=Number(passo.value)){
-            res.innerHTML+=`${c} \u{1F449}`
 
+
+    if(Number(n1.value)> Number(n2.value)){
+        //contagem regresiva
+        for( var c= Number(n1.value); c>= Number(n2.value); c-=Number(passo.value)){
+            res.innerHTML+=`${c} \u{1F449}` //emoji
         }
     }else{
+        //contagem cresente
         for(var c =Number(n1.value); c <= Number(n2.value) ; c+= Number(passo.value)){
-            res.innerHTML+=`${c}\u{1F449}`
+            res.innerHTML+=`${c}\u{1F449}` //emoji
 
         }
-        res.innerHTML+=`\u{1F3C1}`
+       
     }
+    res.innerHTML+=`\u{1F3C1}` //emoji bandeira js
 }
