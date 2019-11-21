@@ -3,7 +3,7 @@ function Contar(){
     var n2 = window.document.getElementById('txtnun2')
     var passo = window.document.getElementById('txtpasso')
     var res = window.document.getElementById('res')
-    res.innerHTML=''
+    res.innerHTML='Contando:'
 
     if(n1.value.length==0){
         alert('inicio não pode ser vazio')
@@ -14,12 +14,12 @@ function Contar(){
     }
     if(Number(n1.value)> Number(n2.value)){
         for( var c= Number(n1.value); c>= Number(n2.value); c-=Number(passo.value)){
-            res.innerHTML+=`${c},`
+            res.innerHTML+=`${c} \u{1F449}`
 
         }
     }else{
         for(var c =Number(n1.value); c <= Number(n2.value) ; c+= Number(passo.value)){
-            res.innerHTML+=`${c},`
+            res.innerHTML+=`${c}\u{1F449}`
 
         }
     }
