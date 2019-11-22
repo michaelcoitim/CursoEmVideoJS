@@ -156,3 +156,12 @@ não esqueser o break  "sair" de cada bloco
 ===================================
 maior dificuldade nos exercicios-> tratamento das fotos , buscar os valores do radio no js
 passar imagem para o html 
+===============================
+modulo f aula 15
+variaveis conpostas -> pode guardar mais de um valor 
+ex array vetor
+variavel composta é uma variavel com varios elementos, cada elemento tem um valor e uma chave de identificação
+for in maneira sinplificada de percorrer vetores 
+para cada x in (dentro) de array b faça  
+
+indexOf busca valores no array  retornando a posição, ou o indice do valor
