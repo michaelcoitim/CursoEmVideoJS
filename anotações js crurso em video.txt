@@ -165,3 +165,7 @@ for in maneira sinplificada de percorrer vetores
 para cada x in (dentro) de array b faça  
 
 indexOf busca valores no array  retornando a posição, ou o indice do valor
+==============================================================
+aula 16 
+funções: são ações execultadas assim que chamadas, ou en decorrência de algum evento 
+podendo receber parâmetros e retornar um resltado
