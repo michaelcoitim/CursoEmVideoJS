@@ -1,4 +1,6 @@
 // passando uma função para uma variável
+// função dobro
+
 
 let v = function (x){
     return x *2
