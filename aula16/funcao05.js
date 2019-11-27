@@ -8,7 +8,7 @@ function fatorial (n){
     }
 }
 
-console.log(fatorial(1))
+console.log(fatorial(8))
 
 /**
  * n!= n x (n-1)!*/
