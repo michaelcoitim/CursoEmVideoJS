@@ -32,6 +32,7 @@ function adicionar(){
     let item= document.createElement('option')
     item.text= `adicionado ${num.value}`
     lista.appendChild(item)
+    res.innerHTML=''
 
    }else{
        window.alert('Valor invalido ou já esta na lista')
@@ -41,6 +42,38 @@ function adicionar(){
    num.focus()
 }
 
+
+
 function finalizar(){
+    
+
+    if(vet.length==0){
+        window.alert('adicone um numero antes de finaliar')
+    }else{
+        let total= vet.length
+        let menor = vet[0]
+        let maior = vet[0]
+        let soma = 0
+        let media = 0
+        for(let p in vet){
+            soma += vet[p]
+            if(vet[p]> maior){
+                maior= vet[p]
+            }
+            if(vet[p]<menor){
+                menor= vet[p]
+            }
+        }
+        media = soma/total
+        res.innerHTML=''
+        res.innerHTML+= `<p>O valor total de elementos é ${total}.</p>`
+        res.innerHTML+= `<p>O menor numero é ${menor}</p>`
+        res.innerHTML+= `<p>O maior valor é ${maior}</p>`
+        res.innerHTML+= `<p>A soma dos valores é ${soma}.</p>`
+        res.innerHTML+= `<p>A médias entre eles  é ${media}.</p>`
+
+    
+    }
+
 
 }
